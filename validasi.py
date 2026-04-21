@@ -1,9 +1,9 @@
 while True:
-    angka = int(input("Masukkan angka positif: "))
+    angka = int(input("masukkan angka positif: "))
     
     if angka >= 0:
         break
     else:
-        print("Input salah! Harus angka positif.")
+        print("input salah, harus angka positif.")
 
-print("Angka yang dimasukkan:", angka)
+print("angka yang dimasukkan:", angka)
