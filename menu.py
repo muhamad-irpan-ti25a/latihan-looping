@@ -1,14 +1,14 @@
 while True:
     print("=== MENU ===")
-    print("1. Halo")
-    print("2. Keluar")
+    print("1. halo")
+    print("2. keluar")
     
-    pilihan = int(input("Pilih menu: "))
+    pilihan = int(input("pilih menu: "))
 
     if pilihan == 1:
-        print("Halo User")
+        print("halo user")
     elif pilihan == 2:
-        print("Program berhenti")
+        print("program berhenti")
         break
     else:
-        print("Pilihan tidak valid, coba lagi!")
+        print("pilihan tidak valid, coba lagi")
